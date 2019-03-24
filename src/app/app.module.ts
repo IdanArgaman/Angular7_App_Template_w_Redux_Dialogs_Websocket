@@ -16,6 +16,8 @@ import { MatTableComponent } from './components/mat-table/mat-table.component';
 
 import { Material } from './imports/material';
 
+import { DxDataGridModule } from 'devextreme-angular';
+
 @NgModule({
     declarations: [
         AppComponent,
@@ -28,6 +30,7 @@ import { Material } from './imports/material';
         HttpClientModule,
         FormsModule,
         BrowserAnimationsModule,
+        DxDataGridModule,
 
         ...Material
     ],
