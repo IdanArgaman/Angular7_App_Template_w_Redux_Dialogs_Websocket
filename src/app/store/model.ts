@@ -1,4 +1,4 @@
-import { IMaterialState } from '../model/some.model';
+import { IMaterialState } from '../model/material.model';
 
 export interface IAppState {
   someState: IMaterialState;

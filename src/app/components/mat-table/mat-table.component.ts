@@ -5,9 +5,9 @@ import { MatTableDataSource, MatPaginator,
     MatSort, MatDialog } from '@angular/material';
 
 import { EditItemDailogComponent } from '../dialogs/editItemDailog/editItemDailog.component';
-import { IMaterialData } from 'src/app/model/material.model';
-import { AppStore } from 'src/app/store/store';
-import { MaterialActions } from 'src/app/api/material.actions';
+import { IMaterialData } from '../../model/material.model';
+import { AppStore } from '../../store/store';
+import { MaterialActions } from '../../api/material.actions';
 
 @Component({
     selector: 'app-mat-table',
