@@ -2,11 +2,5 @@
   <!-- <app-mat-table *ngIf="state.materialsState" [data]="state.materialsState.materialData">
   </app-mat-table> -->
 
-  <dx-data-grid
-    id="gridContainer"
-    [dataSource]="customers"
-    [columns]="['CompanyName', 'City', 'State', 'Phone', 'Fax']"
-    [showBorders]="true">
-  </dx-data-grid>
-  
+  <app-dx-grid></app-dx-grid>
 </div>

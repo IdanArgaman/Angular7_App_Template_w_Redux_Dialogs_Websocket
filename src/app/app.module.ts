@@ -17,13 +17,15 @@ import { MatTableComponent } from './components/mat-table/mat-table.component';
 import { Material } from './imports/material';
 
 import { DxDataGridModule } from 'devextreme-angular';
+import { DxGridComponent } from './components/dx-grid/dx-grid.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         WebsocketConnectComponent,
         EditItemDailogComponent,
-        MatTableComponent
+        MatTableComponent,
+        DxGridComponent
     ],
     imports: [
         BrowserModule,
