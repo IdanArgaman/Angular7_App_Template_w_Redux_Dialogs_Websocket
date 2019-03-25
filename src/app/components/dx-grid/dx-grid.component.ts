@@ -9,7 +9,7 @@ export class DxGridComponent implements OnInit {
 
   customers = [{
     'ID': 1,
-    'CompanyName': 'Super Mart of the West',
+    'CompanyName': 'Super Mart of the West XXX',
     'Address': '702 SW 8th Street',
     'City': 'Bentonville',
     'State': 'Arkansas',
